@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package tutorial;
+
+message Shape {
+	required float32 size = 1;
+	required int8 color_r = 2;
+	required int8 color_g = 3;
+	required int8 color_b = 4;
+	optional string name = 5;
+
+	enum ShapeType {
+		CIRCLE = 0;
+		SQUARE = 1;
+		TRIANGLE = 2;
+	}
+}
