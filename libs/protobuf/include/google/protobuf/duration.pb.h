@@ -45,7 +45,7 @@ PROTOBUF_NAMESPACE_CLOSE
 struct PROTOBUF_EXPORT TableStruct_google_2fprotobuf_2fduration_2eproto {
   static const ::PROTOBUF_NAMESPACE_ID::internal::ParseTableField entries[]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
-  static const ::PROTOBUF_NAMESPACE_ID::internal::AuxillaryParseTableField aux[]
+  static const ::PROTOBUF_NAMESPACE_ID::internal::AuxiliaryParseTableField aux[]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
   static const ::PROTOBUF_NAMESPACE_ID::internal::ParseTable schema[1]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
@@ -69,7 +69,7 @@ PROTOBUF_NAMESPACE_OPEN
 class PROTOBUF_EXPORT Duration PROTOBUF_FINAL :
     public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Duration) */ {
  public:
-  inline Duration() : Duration(nullptr) {};
+  inline Duration() : Duration(nullptr) {}
   virtual ~Duration();
 
   Duration(const Duration& from);

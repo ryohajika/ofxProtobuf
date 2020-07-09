@@ -29,7 +29,7 @@ common:
 	# include search paths, this will be usually parsed from the file system
 	# but if the addon or addon libraries need special search paths they can be
 	# specified here separated by spaces or one per line using +=
-	ADDON_INCLUDES = libs/protobuf/include
+	ADDON_INCLUDES += libs/protobuf/include
 	ADDON_INCLUDES += libs/protobuf/include/google
 	ADDON_INCLUDES += libs/protobuf/include/google/compiler
 	ADDON_INCLUDES += libs/protobuf/include/google/compiler/cpp
@@ -75,5 +75,5 @@ common:
 	# ADDON_LIBS_EXCLUDE =
 
 osx:
-	ADDON_LIBS = libs/protobuf/lib/osx/libprotobuf.a
+	ADDON_LIBS += libs/protobuf/lib/osx/libprotobuf.a
 	#ADDON_LIBS += libs/protobuf/lib/osx/libprotobuf-lite.a 

@@ -45,7 +45,7 @@ PROTOBUF_NAMESPACE_CLOSE
 struct PROTOBUF_EXPORT TableStruct_google_2fprotobuf_2fempty_2eproto {
   static const ::PROTOBUF_NAMESPACE_ID::internal::ParseTableField entries[]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
-  static const ::PROTOBUF_NAMESPACE_ID::internal::AuxillaryParseTableField aux[]
+  static const ::PROTOBUF_NAMESPACE_ID::internal::AuxiliaryParseTableField aux[]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
   static const ::PROTOBUF_NAMESPACE_ID::internal::ParseTable schema[1]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
@@ -69,7 +69,7 @@ PROTOBUF_NAMESPACE_OPEN
 class PROTOBUF_EXPORT Empty PROTOBUF_FINAL :
     public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Empty) */ {
  public:
-  inline Empty() : Empty(nullptr) {};
+  inline Empty() : Empty(nullptr) {}
   virtual ~Empty();
 
   Empty(const Empty& from);
