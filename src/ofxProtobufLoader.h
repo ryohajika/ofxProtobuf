@@ -20,7 +20,7 @@
 #include <google/protobuf/service.h>
 #include <google/protobuf/text_format.h>
 #include <google/protobuf/unknown_field_set.h>
-#include <google/protobuf/common.h>
+#include <google/protobuf/stubs/common.h>
 // PROTOBUF::IO
 #include <google/protobuf/io/coded_stream.h>
 #include <google/protobuf/io/printer.h>
@@ -42,7 +42,7 @@
 #include <google/protobuf/compiler/importer.h>
 #include <google/protobuf/compiler/parser.h>
 #include <google/protobuf/compiler/plugin.h>
-#include <google/protobuf/compiler/plugin.pb.h>
+//#include <google/protobuf/compiler/plugin.pb.h>
 #include <google/protobuf/compiler/cpp/cpp_generator.h>
 #include <google/protobuf/compiler/csharp/csharp_generator.h>
 #include <google/protobuf/compiler/csharp/csharp_names.h>

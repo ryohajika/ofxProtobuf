@@ -30,6 +30,19 @@ common:
 	# but if the addon or addon libraries need special search paths they can be
 	# specified here separated by spaces or one per line using +=
 	ADDON_INCLUDES = libs/protobuf/include
+	ADDON_INCLUDES += libs/protobuf/include/google
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler/cpp
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler/csharp
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler/java
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler/js
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler/objectivec
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler/php
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler/python
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler/ruby
+	ADDON_INCLUDES += libs/protobuf/include/google/io
+	ADDON_INCLUDES += libs/protobuf/include/google/stubs
+	ADDON_INCLUDES += libs/protobuf/include/google/util
 	ADDON_INCLUDES += src
 	
 	# any special flag that should be passed to the compiler when using this
@@ -62,4 +75,5 @@ common:
 	# ADDON_LIBS_EXCLUDE =
 
 osx:
-	ADDON_LIBS = libs/protobuf/lib/osx/libprotobuf.a 
+	ADDON_LIBS = libs/protobuf/lib/osx/libprotobuf.a
+	#ADDON_LIBS += libs/protobuf/lib/osx/libprotobuf-lite.a 

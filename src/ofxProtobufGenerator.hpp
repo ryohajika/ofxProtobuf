@@ -5,15 +5,14 @@
 //  Created by Ryo Hajika on 2020/07/03.
 //
 
-#pragma once
+//#pragma once
 
 #include <string>
-#include <stdlib>
 #include <vector>
 #include <iostream>
 
-#include "ofBuffer.h"
 #include "ofUtils.h"
+#include "ofFileUtils.h"
 #include "ofLog.h"
 
 #include "ofxProtobufLoader.h"
