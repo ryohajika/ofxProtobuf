@@ -1,6 +1,18 @@
+/**
+ * This is a simple example to use Protocol buffer from an openFrameworks project.
+ * Once you generate a Protobuf header and cc file with protoc command, you can
+ * directly import those files to this project by drag-and-drop.
+ */
+
 #pragma once
 
 #include "ofMain.h"
+
+#include "ofxProtobuf.h"
+#include "example-simple.pb.h"
+
+// key #1
+typedef ofxProtobuf<ProtoData> PData;
 
 class ofApp : public ofBaseApp{
 
@@ -21,4 +33,6 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+        // key #2
+        ofxProtobuf *proto = nullptr;
 };

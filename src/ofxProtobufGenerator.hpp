@@ -5,6 +5,11 @@
 //  Created by Ryo Hajika on 2020/07/03.
 //
 
+/**
+ * ofxProtobufGenerator is still under maintainance.
+ * nothing can be used from this... sorry
+ */
+
 //#pragma once
 
 #include <string>
