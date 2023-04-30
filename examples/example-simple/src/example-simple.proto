@@ -1,9 +1,9 @@
 // Check the Protobuf official manual for the notation
 
 syntax = "proto3";
-package ofxProtobuf;
+package ProtoTest;
 
-message ProtoData {
+message Data {
   uint32 color_r = 1;
   uint32 color_g = 2;
   uint32 color_b = 3;

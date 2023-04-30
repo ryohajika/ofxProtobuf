@@ -16,7 +16,7 @@
 
 meta:
 	ADDON_NAME = ofxProtobuf
-	ADDON_DESCRIPTION = Addon for the protocolbuffer library (v3.12.3) 
+	ADDON_DESCRIPTION = Addon for the protocolbuffer library (v3.19.6)
 	ADDON_AUTHOR = Ryo Hajika 
 	ADDON_TAGS = "serialization" "protocolbuffer" "protobuf"
 	ADDON_URL = https://github.com/ryohajika/ofxProtobuf
@@ -33,13 +33,6 @@ common:
 	ADDON_INCLUDES += libs/protobuf/include/google
 	ADDON_INCLUDES += libs/protobuf/include/google/compiler
 	ADDON_INCLUDES += libs/protobuf/include/google/compiler/cpp
-	ADDON_INCLUDES += libs/protobuf/include/google/compiler/csharp
-	ADDON_INCLUDES += libs/protobuf/include/google/compiler/java
-	ADDON_INCLUDES += libs/protobuf/include/google/compiler/js
-	ADDON_INCLUDES += libs/protobuf/include/google/compiler/objectivec
-	ADDON_INCLUDES += libs/protobuf/include/google/compiler/php
-	ADDON_INCLUDES += libs/protobuf/include/google/compiler/python
-	ADDON_INCLUDES += libs/protobuf/include/google/compiler/ruby
 	ADDON_INCLUDES += libs/protobuf/include/google/io
 	ADDON_INCLUDES += libs/protobuf/include/google/stubs
 	ADDON_INCLUDES += libs/protobuf/include/google/util
@@ -75,5 +68,5 @@ common:
 	# ADDON_LIBS_EXCLUDE =
 
 osx:
-	ADDON_LIBS += libs/protobuf/lib/osx/libprotobuf.a
+	ADDON_LIBS += libs/protobuf/lib/osx/libprotobuf.30.dylib
 	#ADDON_LIBS += libs/protobuf/lib/osx/libprotobuf-lite.a 
